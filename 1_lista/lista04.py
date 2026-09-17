@@ -3,7 +3,7 @@ Implemente uma função que recebe uma lista, o tamanho dela e um número inteir
 Se o número existe na lista, a função retorna True. Em caso contrário, retorna False.
 Depois, crie uma lista com 5 números inteiros e teste sua função.
 
-OBS: A resposta abaixo está incompleta. Finalize a função pesquisar.
+OBS: A resposta abaixo está incompleta. Finalize a função pesquisar. Não use a palavra reservada in.
 """
 
 def pesquisar(lista, tamanho, numero):
