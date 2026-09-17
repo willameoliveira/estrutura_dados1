@@ -4,7 +4,7 @@ Se o número existe na lista, a função retorna True. Em caso contrário, retor
 Depois, crie uma lista com 5 números inteiros e teste sua função.
 
 OBS: A resposta abaixo está incompleta. Finalize a função pesquisar. 
-Intruções: Não use a palavra reservada in. Use um for para percorrer a lista e comparar cada número dela com o número pesquisado.
+Instruções: Não use a palavra reservada in. Use um for para percorrer a lista e comparar cada número dela com o número pesquisado.
 """
 
 def pesquisar(lista, tamanho, numero):
