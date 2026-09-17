@@ -12,13 +12,3 @@ lista[2] = 3
 
 for i in range(3):
     print(lista[i])
-
-nova_lista = [None] * 4
-
-for i in range(3):
-    nova_lista[i] = lista[i]
-
-nova_lista[3] = 4
-del lista
-print(nova_lista)
-

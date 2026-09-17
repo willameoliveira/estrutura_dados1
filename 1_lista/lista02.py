@@ -1,3 +1,7 @@
+"""
+Implementando redimensionamento de array a partir da cópia para um novo array maior
+"""
+
 capacidade = 3
 lista = [None] * capacidade  # Similar a escrever lista = [None, None, None]
 print(lista)
