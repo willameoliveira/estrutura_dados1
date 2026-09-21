@@ -8,6 +8,10 @@ Instruções: Não use a palavra reservada in. Use um for para percorrer a lista
 """
 
 def pesquisar(lista, tamanho, numero):
+    for i in range(tamanho):
+        if numero == lista[i]:
+            return True
+        
     return False
 
 lista = [3, 5, 8, 10, 15]
