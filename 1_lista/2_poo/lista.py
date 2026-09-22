@@ -9,6 +9,7 @@ class Lista:
         if self.tamanho < self.capacidade:
             self.array[self.tamanho] = numero
             self.tamanho += 1
-            print(f"Número {numero} adicionado na lista com sucesso!")
-        else:
-            print(f"Número {numero} não adicionado. A lista encheu!")
+            return True
+        return False
+
+    
