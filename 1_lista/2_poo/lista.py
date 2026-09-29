@@ -27,10 +27,8 @@ class Lista:
     def obter(self, posicao):
         """ Retorna o número guardado em uma determinada posição da lista.
         Caso a posição não exista na lista, retorna None. """
-        if 0 <= posicao < self.tamanho:
-            return self.array[posicao]
-        
-        return None
+
+        pass
 
     def inserir(self, posicao, numero):
         """ Adiciona um número em uma posição da lista
@@ -51,4 +49,3 @@ class Lista:
         Caso o número não seja encontrado, retorna False. """
         
         pass        
-    
