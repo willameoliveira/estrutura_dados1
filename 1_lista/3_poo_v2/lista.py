@@ -17,7 +17,7 @@ class Lista:
 
     def pesquisar(self, numero):
         """ Retorna a posição do número procurado na lista.
-        Caso o número não seje encontrado, retorna -1. """
+        Caso o número não seja encontrado, retorna -1. """
         
         for i in range(self.tamanho):
             if self.array[i] == numero:
