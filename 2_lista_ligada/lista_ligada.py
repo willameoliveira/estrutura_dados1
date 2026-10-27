@@ -3,22 +3,26 @@ from no import No
 class Lista_Ligada:
 
     def __init__(self):
-        self.no_inicial: No = None
+        self.primeiro: No = None
         self.tamanho = 0
 
     def adicionar(self, item):
         """ Adiciona no fim da lista """
 
-        if self.no_inicial:
-            self.no_inicial.proximo = No(item)
+        novo_no = No(item)
+        if self.primeiro is None:
+            self.primeiro = novo_no
         else:
-            self.no_inicial = No(item)
+            atual = self.primeiro
+            while atual.proximo:
+                atual = atual.proximo
+            atual.proximo = novo_no
         self.tamanho += 1
 
     def exibir(self):
         """ Exibe os itens da lista """
 
-        no_atual = self.no_inicial
+        no_atual = self.primeiro
         while no_atual:
             print(no_atual.item, end=" -> ")
             no_atual = no_atual.proximo
@@ -37,14 +41,14 @@ class Lista_Ligada:
         pass
 
     def inserir(self, posicao, item):
-         """ Adiciona um número em uma posição da lista
-        empurrando os demais números para o fim da lista.
+         """ Adiciona um item em uma posição da lista
+        empurrando os demais itens para o fim da lista.
         Se a posição não é válida, retorna False. """
          
          pass
 
     def remover(self, posicao):
-        """ Remove um número de uma posição da lista
+        """ Remove um item de uma posição da lista
         e puxa os demais itens para o início da lista.
         Ao final, retorna True. Caso a posição não exista na lista, retorna False. """
 
