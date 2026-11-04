@@ -25,15 +25,6 @@ class ListaLigada:
 
         return string + "null"
 
-
-
-
-
-
-
-
-
-
     def adicionar(self, item):
         """ Adiciona no fim da lista """
 
