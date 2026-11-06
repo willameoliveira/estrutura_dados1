@@ -17,7 +17,7 @@ class ListaLigada:
 
 
     def __str__(self):
-        """ Exibe os itens da lista """
+        """ Monta uma string com os itens da lista """
 
         no_atual = self.primeiro
         string = ""
