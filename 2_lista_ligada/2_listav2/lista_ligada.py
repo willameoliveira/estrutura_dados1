@@ -65,8 +65,8 @@ class ListaLigada:
          pass
 
 
-    def remover_inicio(self, posicao):
-        """ Remove o primeiro item da lista """
+    def remover_inicio(self):
+        """ Remove o primeiro item da lista e o retorna """
 
         pass        
 
