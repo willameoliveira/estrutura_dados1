@@ -23,4 +23,4 @@ def test_inserir_inicio(lista):
 
 
 if __name__ == "__main__":
-    pytest.main(["-v"])
+    pytest.main(["2_lista_ligada/2_listav2/test_lista_ligadav2.py", "-v"])
