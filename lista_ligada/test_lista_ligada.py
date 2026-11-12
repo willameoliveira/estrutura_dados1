@@ -128,4 +128,4 @@ def test_remover_item_lista_vazia():
 
 
 if __name__ == "__main__":
-    pytest.main(["2_lista_ligada/3_listav3/test_lista_ligada.py", "-v"])
+    pytest.main(["lista_ligada/test_lista_ligada.py", "-v"])
